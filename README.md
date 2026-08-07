@@ -2,18 +2,16 @@
 
 > One Village. One Data. One Platform.
 
-Jone Digital Platform (JDP) adalah platform digital terpadu yang dikembangkan untuk mendukung pengelolaan informasi resmi Desa Jone.
-
-Platform ini dirancang agar seluruh informasi desa dikelola melalui satu sumber data yang konsisten, sehingga mudah dipublikasikan, mudah dicari, mudah diarsipkan, dan mudah dikembangkan di masa depan.
+Jone Digital Platform (JDP) adalah platform digital yang dikembangkan untuk membantu Desa Jone mengelola, mengarsipkan, dan mempublikasikan informasi resmi desa melalui satu sistem yang terintegrasi.
 
 ---
 
 ## Tujuan
 
-- Menjadi pusat pengelolaan informasi resmi Desa Jone.
-- Mempermudah operator dalam mengelola konten.
-- Menyediakan informasi yang akurat bagi masyarakat.
-- Menjadi fondasi transformasi digital Desa Jone.
+- Menjadi pusat informasi resmi Desa Jone.
+- Memudahkan operator dalam mengelola konten.
+- Menyediakan informasi yang akurat kepada masyarakat.
+- Menjadi fondasi pengembangan layanan digital desa.
 
 ---
 
@@ -27,63 +25,16 @@ Platform ini dirancang agar seluruh informasi desa dikelola melalui satu sumber 
 
 ---
 
-## Status Proyek
+## Status
 
-Saat ini proyek masih berada pada tahap:
-
-**Architecture & Design**
-
-Fokus utama saat ini adalah menyusun arsitektur, dokumentasi, dan fondasi sistem sebelum implementasi kode.
+🚧 Dalam tahap Architecture & Design.
 
 ---
 
-## Struktur Dokumentasi
+## Dokumentasi
 
-```
-docs/
-├── architecture/
-├── adr/
-├── github/
-├── roadmap/
-└── history/
-```
+Dokumentasi proyek disimpan pada folder `docs/`.
+
+Pengembangan dilakukan secara bertahap, dimulai dari penyusunan arsitektur sebelum implementasi kode.
 
 ---
-
-## Roadmap
-
-Versi 0.1.0 – Foundation
-
-- Penyusunan dokumentasi
-- Perancangan arsitektur
-- Module Map
-- Entity Model
-
-Versi 1.0.0
-
-- CMS Operator
-- Website Publik
-- Media Library
-- Berita
-- Agenda
-- Galeri
-- Dokumen
-- Profil Desa
-
----
-
-## Teknologi (Rencana)
-
-- Laravel
-- MySQL / MariaDB
-- Blade
-- Bootstrap
-- Git & GitHub
-
-Teknologi dapat berubah sesuai kebutuhan proyek.
-
----
-
-## Lisensi
-
-Lisensi akan ditentukan sebelum rilis versi 1.0.
