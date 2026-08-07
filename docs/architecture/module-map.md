@@ -1,6 +1,7 @@
 # Module Map
 
-**Status:** Draft
+Status : Approved
+Versi  : 0.1
 
 ---
 
@@ -66,4 +67,4 @@ JDP dibagi menjadi empat domain utama.
 
 ## Catatan
 
-Daftar modul dapat berkembang sesuai kebutuhan, namun setiap modul harus ditempatkan pada salah satu domain di atas.
+"Module Map merupakan dokumen yang dapat diperbarui seiring perkembangan JDP. Setiap penambahan modul harus ditempatkan pada salah satu domain yang sudah ada atau disertai alasan yang jelas apabila membentuk domain baru."
