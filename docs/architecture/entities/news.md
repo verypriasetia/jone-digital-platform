@@ -8,33 +8,52 @@
 
 ## Tujuan
 
-Berita digunakan untuk menyampaikan informasi resmi Desa Jone kepada masyarakat.
+Berita digunakan untuk mendokumentasikan informasi resmi Desa Jone mengenai kejadian, kegiatan, atau peristiwa yang **sudah terjadi**.
 
 ---
 
-## Deskripsi
+## Definisi
 
-Berita merupakan informasi yang dipublikasikan melalui website resmi desa.
-
-Setiap berita dibuat oleh operator dan dapat diperbarui apabila diperlukan.
+Berita adalah informasi resmi desa yang menceritakan sesuatu yang telah terjadi dan layak diketahui atau diarsipkan oleh masyarakat.
 
 ---
 
-## Dimiliki oleh
+## Contoh
 
-Domain: Content
+Berita dapat digunakan untuk:
+
+* Kegiatan desa yang telah dilaksanakan.
+* Gotong royong yang telah selesai.
+* Musyawarah desa yang telah dilaksanakan.
+* Pembangunan yang telah dimulai atau selesai.
+* Pelatihan atau kegiatan masyarakat yang telah berlangsung.
+* Prestasi desa atau warga yang telah terjadi.
+* Informasi lain mengenai kejadian yang sudah berlangsung.
 
 ---
 
-## Digunakan untuk
+## Batasan
 
-- Informasi desa
-- Pengumuman kegiatan
-- Dokumentasi kegiatan
-- Publikasi resmi
+Berita **bukan** digunakan untuk menyampaikan informasi mengenai sesuatu yang akan terjadi atau pemberitahuan yang masih berlaku.
+
+Untuk kebutuhan tersebut, gunakan **Pengumuman**.
+
+### Aturan sederhana
+
+> **Sudah terjadi → Berita**
+
+> **Akan terjadi / masih berlaku → Pengumuman**
+
+---
+
+## Domain
+
+**Content**
 
 ---
 
 ## Catatan
 
-Detail atribut dan struktur database akan dibahas pada dokumen berikutnya.
+Detail atribut Berita, seperti judul, isi, gambar, tanggal, dan penulis, akan ditentukan pada tahap berikutnya.
+
+Struktur database belum dibahas dalam dokumen ini.
