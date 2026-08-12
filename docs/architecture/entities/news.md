@@ -57,3 +57,17 @@ Untuk kebutuhan tersebut, gunakan **Pengumuman**.
 Detail atribut Berita, seperti judul, isi, gambar, tanggal, dan penulis, akan ditentukan pada tahap berikutnya.
 
 Struktur database belum dibahas dalam dokumen ini.
+
+| #  | Attribute            | Makna                                         |
+| -- | -------------------- | --------------------------------------------- |
+| 1  | `id`                 | Pengenal unik News yang digunakan sistem      |
+| 2  | `judul`              | Judul berita yang dibaca orang                |
+| 3  | `isi`                | Berita/informasi yang ingin disampaikan       |
+| 4  | `tanggal_kejadian`   | Tanggal terjadinya peristiwa yang diberitakan |
+| 5  | `publication_status` | Status berita: draft atau published           |
+| 6  | `published_at`       | Waktu berita dipublikasikan                   |
+| 7  | `created_by`         | Siapa yang membuat berita                     |
+| 8  | `created_at`         | Waktu berita dibuat                           |
+| 9  | `updated_by`         | Siapa yang melakukan perubahan, jika ada      |
+| 10 | `updated_at`         | Kapan perubahan terakhir terjadi              |
+
