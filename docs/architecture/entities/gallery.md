@@ -50,4 +50,13 @@ Galeri dapat memuat:
 
 Detail pengelolaan gambar dan video, termasuk ukuran file, kompresi, resize, penyimpanan, dan tampilan, akan dibahas pada tahap berikutnya.
 
-Struktur database belum dibahas dalam dokumen ini.
+| # | Attribute     | Required | Makna                            |
+| - | ------------- | -------- | -------------------------------- |
+| 1 | `id`          | Ya       | Pengenal unik Media              |
+| 2 | `file`        | Ya       | Nama/path file media             |
+| 3 | `type`        | Ya       | Jenis media/file                 |
+| 4 | `title`       | Ya       | Judul media yang dilihat pembaca |
+| 5 | `caption`     | Tidak    | Keterangan singkat media         |
+| 6 | `uploaded_by` | Ya       | Siapa yang mengunggah            |
+| 7 | `uploaded_at` | Ya       | Kapan media diunggah             |
+
