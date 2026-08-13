@@ -53,22 +53,21 @@ Agenda dan Pengumuman dapat berkaitan, tetapi memiliki fungsi yang berbeda.
 **Content**
 
 ---
-
------------------------------
-Attribute	| Required	| Makna
-=============================
-id	|	Ya	|	Pengenal unik Agenda
-judul	|	Ya	|	Judul Agenda yang dibaca orang
-deskripsi	|	Ya	|	Gambaran singkat Agenda
-tanggal_mulai	|	Ya	|	Tanggal rencana mulai kegiatan
-tanggal_selesai	|	Tidak	|	Tanggal rencana selesai kegiatan
-lokasi	|	Ya	|	Tempat pelaksanaan kegiatan
-status	|	Ya	|	draft, published, cancelled
-created_by	|	Ya	|	Siapa yang membuat Agenda
-created_at	|	Ya	|	Kapan informasi dibuat
-updated_by	|	Tidak*	|	Siapa yang terakhir mengubah
-updated_at	|	Tidak*	|	Kapan terakhir diubah
----------------------------------------------
+_________________________________________________________________
+| Attribute	      | Required	| Makna                           |
+=================================================================
+| id	            |	Ya	      |	Pengenal unik Agenda            |
+| judul	          |	Ya	      |	Judul Agenda yang dibaca orang  |
+| deskripsi	      |	Ya	      |	Gambaran singkat Agenda         |
+| tanggal_mulai	  |	Ya	      |	Tanggal rencana mulai kegiatan  |
+| tanggal_selesai	|	Tidak	    |	Tanggal rencana selesai kegiatan|
+| lokasi	        |	Ya	      |	Tempat pelaksanaan kegiatan     |
+| status	        |	Ya	      |	draft, published, cancelled     |
+| created_by	    |	Ya	      |	Siapa yang membuat Agenda       |
+| created_at	    |	Ya	      |	Kapan informasi dibuat          |
+| updated_by	    |	Tidak*	  |	Siapa yang terakhir mengubah    |
+| updated_at	    |	Tidak*	  |	Kapan terakhir diubah           |
+----------------------------------------------------------------|
 
 
 Dengan keputusan penting:
