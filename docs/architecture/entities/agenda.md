@@ -54,8 +54,28 @@ Agenda dan Pengumuman dapat berkaitan, tetapi memiliki fungsi yang berbeda.
 
 ---
 
-## Catatan
+-----------------------------
+Attribute	| Required	| Makna
+=============================
+id	|	Ya	|	Pengenal unik Agenda
+judul	|	Ya	|	Judul Agenda yang dibaca orang
+deskripsi	|	Ya	|	Gambaran singkat Agenda
+tanggal_mulai	|	Ya	|	Tanggal rencana mulai kegiatan
+tanggal_selesai	|	Tidak	|	Tanggal rencana selesai kegiatan
+lokasi	|	Ya	|	Tempat pelaksanaan kegiatan
+status	|	Ya	|	draft, published, cancelled
+created_by	|	Ya	|	Siapa yang membuat Agenda
+created_at	|	Ya	|	Kapan informasi dibuat
+updated_by	|	Tidak*	|	Siapa yang terakhir mengubah
+updated_at	|	Tidak*	|	Kapan terakhir diubah
+---------------------------------------------
 
-Detail atribut Agenda, seperti nama kegiatan, tanggal, waktu, lokasi, dan keterangan, akan ditentukan pada tahap berikutnya.
 
-Struktur database belum dibahas dalam dokumen ini.
+Dengan keputusan penting:
+
+tanggal_mulai → wajib
+tanggal_selesai → boleh kosong
+status → draft, published, cancelled
+updated_by → boleh kosong jika belum pernah diubah
+updated_at → boleh kosong jika belum pernah diubah
+Media → bukan attribute inti Agenda
