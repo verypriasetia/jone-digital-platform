@@ -65,3 +65,11 @@ Pencatatan aktivitas Operator akan dibahas pada Audit Log.
 Mekanisme autentikasi dan keamanan akun akan dibahas pada tahap implementasi.
 
 Struktur database belum dibahas dalam dokumen ini.
+
+| # | Attribute  | Required | Makna                                      |
+| - | ---------- | -------- | ------------------------------------------ |
+| 1 | `id`       | Ya       | Pengenal unik Operator bagi sistem         |
+| 2 | `name`     | Ya       | Nama orang yang dikenali manusia           |
+| 3 | `username` | Ya       | Nama unik untuk berinteraksi dengan sistem |
+| 4 | `password` | Ya       | Kredensial untuk autentikasi               |
+| 5 | `role_id`  | Ya       | Role yang melekat pada Operator            |
