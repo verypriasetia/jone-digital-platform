@@ -57,8 +57,8 @@ _________________________________________________________________
 | Attribute	      | Required	| Makna                           |
 =================================================================
 | id	            |	Ya	      |	Pengenal unik Agenda            |
-| judul	          |	Ya	      |	Judul Agenda yang dibaca orang  |
-| deskripsi	      |	Ya	      |	Gambaran singkat Agenda         |
+| title	          |	Ya	      |	Judul Agenda yang dibaca orang  |
+| description     |	Ya	      |	Gambaran singkat Agenda         |
 | tanggal_mulai	  |	Ya	      |	Tanggal rencana mulai kegiatan  |
 | tanggal_selesai	|	Tidak	    |	Tanggal rencana selesai kegiatan|
 | lokasi	        |	Ya	      |	Tempat pelaksanaan kegiatan     |
