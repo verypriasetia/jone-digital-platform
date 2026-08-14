@@ -61,16 +61,13 @@ Dokumen digunakan sebagai bagian dari proses yang membutuhkan:
 
 ---
 
-## Domain
-
-**Content**
-
----
-
-## Catatan
-
-Tidak semua dokumen harus dapat diisi atau memberikan feedback secara langsung melalui website.
-
-Mekanisme pelayanan, formulir digital, validasi, dan alur feedback akan ditentukan pada tahap berikutnya.
-
-Struktur database dan format penyimpanan file belum dibahas dalam dokumen ini.
+| # | Attribute     | Required | Makna                                |
+| - | ------------- | -------- | ------------------------------------ |
+| 1 | `id`          | Ya       | Pengenal unik Document bagi sistem   |
+| 2 | `title`       | Ya       | Pengenal/judul Document bagi pembaca |
+| 3 | `file_path`   | Ya       | Jalur/lokasi file Document           |
+| 4 | `type`        | Ya       | Jenis file Document                  |
+| 5 | `description` | Tidak    | Gambaran singkat Document            |
+| 6 | `status`      | Ya       | `draft`, `published`, `archived`     |
+| 7 | `uploaded_by` | Ya       | Siapa yang mengunggah                |
+| 8 | `uploaded_at` | Ya       | Kapan diunggah                       |
