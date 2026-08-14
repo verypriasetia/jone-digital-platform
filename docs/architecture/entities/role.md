@@ -67,3 +67,10 @@ Editor tidak memiliki kewenangan untuk mengelola Operator atau konfigurasi utama
 Pembagian kewenangan secara lebih rinci akan ditentukan pada tahap Permission.
 
 Struktur database dan mekanisme autentikasi belum dibahas dalam dokumen ini.
+
+
+| # | Attribute     | Required | Fungsi                                    |
+| - | ------------- | -------- | ----------------------------------------- |
+| 1 | `id`          | Ya       | Pengenal unik Role bagi sistem            |
+| 2 | `name`        | Ya       | Nama Role yang dikenali manusia           |
+| 3 | `description` | Ya       | Menjelaskan tugas dan tanggung jawab Role |
