@@ -85,3 +85,10 @@ Administrator memiliki kewenangan Editor dan tambahan kewenangan untuk:
 Rincian Permission per fitur dapat dikembangkan apabila kebutuhan JDP bertambah.
 
 Struktur database dan mekanisme teknis Permission belum dibahas dalam dokumen ini.
+
+| # | Attribute     | Required | Makna                                      |
+| - | ------------- | -------- | ------------------------------------------ |
+| 1 | `id`          | Ya       | Pengenal unik Permission bagi sistem       |
+| 2 | `name`        | Ya       | Nama Permission yang dikenali manusia      |
+| 3 | `description` | Ya       | Menjelaskan jenis/ruang lingkup Permission |
+
