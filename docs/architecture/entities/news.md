@@ -61,7 +61,7 @@ Struktur database belum dibahas dalam dokumen ini.
 | #  | Attribute            | Makna                                         |
 | -- | -------------------- | --------------------------------------------- |
 | 1  | `id`                 | Pengenal unik News yang digunakan sistem      |
-| 2  | `judul`              | Judul berita yang dibaca orang                |
+| 2  | `title`              | Judul berita yang dibaca orang                |
 | 3  | `isi`                | Berita/informasi yang ingin disampaikan       |
 | 4  | `tanggal_kejadian`   | Tanggal terjadinya peristiwa yang diberitakan |
 | 5  | `publication_status` | Status berita: draft atau published           |
